@@ -5,4 +5,5 @@ package com.pcube.service.provider.engineservice;
  */
 public interface EngineService {
     TREngine say(TPEngine tpEngine);
+    TRCreateSession createSession(TPCreateSession tpCreateSession);
 }

@@ -9,5 +9,7 @@ import lombok.Data;
  */
 @Data
 public class TREngine extends TResponse {
-    String something;
+    long sessionId;
+    String action;
+    Object payload;
 }

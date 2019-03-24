@@ -8,7 +8,7 @@ import java.io.Serializable;
 public class TEvent implements Serializable{
     Object payload;
 
-    public static String TRANSITION_TAG = "t";
+    public static String TRANSITION_INTENTION = "t";
 
     public static class IdleEvent extends TEvent{
         @Override

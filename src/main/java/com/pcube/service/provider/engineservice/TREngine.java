@@ -1,5 +1,6 @@
 package com.pcube.service.provider.engineservice;
 
+import com.pcube.service.TEvent;
 import com.pcube.service.TRequest;
 import com.pcube.service.TResponse;
 import lombok.Data;
@@ -9,7 +10,5 @@ import lombok.Data;
  */
 @Data
 public class TREngine extends TResponse {
-    long sessionId;
-    String action;
-    Object payload;
+    TEvent event;
 }
